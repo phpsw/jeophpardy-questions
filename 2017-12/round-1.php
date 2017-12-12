@@ -2,27 +2,78 @@
 	'pointScale' => 200,
 	'categories' => [
 		[
-			'name' => 'PHP &nbsp; 7',
+			'name' => 'Elephpants',
 			'questions' =>  [
 				[
-				 	'question' => 'This new interface allows you to catch both Errors and Exceptions in your code.',
-				 	'answer'   => 'What is the Throwable interface?',
+				 	'question' => 'This elephpant is helping promote diversity',
+				 	'answer'   => 'Who is enfys / What is the rainbow elephpant?',
 				],
 				[
-				 	'question' => 'This operator allows you to perform a three-way comparison in one go.',
-				 	'answer'   => 'What is a spaceship operator?',
+				 	'question' => 'This singing elepPHPant was given away to attendees at ZendCon 2016',
+				 	'answer'   => 'Who is ElPHPis?',
 				],
 				[
-				 	'question' => 'This RFC which made its way into PHP 7.1 allows you to specify that a function should not return anything.',
-				 	'answer'   => 'What is a void return type?',
+				 	'question' => 'The elephpant was first sketched in 1998 by this person',
+				 	'answer'   => 'Who is Vincent Pontier?',
 				],
 				[
-				 	'question' => 'This operator will return the left operand if it is not null, otherwise it will return the right. ',
-				 	'answer'   => 'What is the null coalesce operator?',
+				 	'question' => 'A true rarity, only one of these elephpants exists in the wild',
+				 	'answer'   => 'Who is the Gold elePHPant / Who is gelePHPant?',
 				],
 				[
-				 	'question' => 'This RFC which made its way into PHP 7.1 allows you to declare that your function may accept and/or return nothing',
-				 	'answer'   => 'What is/are nullable types?',
+				 	'question' => 'xx',
+				 	'answer'   => 'xx',
+				],
+			]
+		],
+		[
+			'name' => 'Conference Conundrums',
+			'questions' =>  [
+				[
+				 	'question' => 'Laser quest was the game to play at this conference\'s social',
+				 	'answer'   => 'What is PHP South Coast?',
+				],
+				[
+				 	'question' => 'This speaker previewed their PHPNW talk \'Meet Terraform\' at PHPSW',
+				 	'answer'   => 'Who is Michael Heap?',
+				],
+				[
+				 	'question' => 'Ciaran McNulty gave a talk on this topic at ScotlandPHP',
+				 	'answer'   => 'What is Behat?',
+				],
+				[
+				 	'question' => 'This speaker presented Managing dependencies is more than running "composer update" at PHP South Coast',
+				 	'answer'   => 'Who is Nils Adermann?',
+				],
+				[
+				 	'question' => 'xx',
+				 	'answer'   => 'xx',
+				],
+			]
+			
+		],
+		[
+			'name' => 'Name the namespace',
+			'questions' =>  [
+				[
+					'question' => 'This framework comes with an artisan command line tool.',
+					'answer'   => 'What is Laravel?',
+			    ],
+				[
+				 	'question' => 'This HTTP client makes it easy to send HTTP requests.',
+				 	'answer'   => 'What is Guzzle?',
+				],
+				[
+				 	'question' => 'This static site generator created by Beau Simensen is named after a fish.',
+				 	'answer'   => 'What is Sculpin?',
+				],
+				[
+				 	'question' => 'This framework enables the rapid creation of objects for testing.',
+				 	'answer'   => 'What is Factory Muffin?',
+				],
+				[
+				 	'question' => 'xx',
+				 	'answer'   => 'xx',
 				],
 			]
 		],
@@ -34,66 +85,16 @@
 				 	'answer'   => 'Who is Dan Ackroyd?',
 				],
 				[
-				 	'question' => 'David McKay spoke to us about this software containerization platform',
-				 	'answer'   => 'What is Docker?',
+				 	'question' => 'Matt Brunt introduced us to this way of development in March',
+				 	'answer'   => 'What is BDD? / What is Behaviour Driven Development?',
 				],
 				[
-				 	'question' => 'Drew McLellan spoke to us about a security issue in which CMS he creates?',
-				 	'answer'   => 'What is Perch?',
+				 	'question' => 'This person told us about refining MVC and living with legacy at PHPSW this year',
+				 	'answer'   => 'Who is Nigel Dunn?',
 				],
 				[
-				 	'question' => 'This month is when we finally got a talk about PHP 7',
-				 	'answer'   => 'When is May?',
-				],
-				[
-				 	'question' => 'xx',
-				 	'answer'   => 'xx',
-				],
-			]
-		],
-		[
-			'name' => 'Packaged',
-			'questions' =>  [
-				[
-				 	'question' => 'This package is a favourite for handling logging',
-				 	'answer'   => 'What is monolog?',
-				],
-				[
-				 	'question' => 'This package is popular for abstracting local and remote filesystems',
-				 	'answer'   => 'What is Flysystem?',
-				],
-				[
-				 	'question' => 'This dependency injector is frequently mentioned by Dan Ackroyd',
-				 	'answer'   => 'What is Auryn',
-				],
-				[
-				 	'question' => 'This is the name of a group of packages brought together by cider drinker Phil Sturgeon',
-				 	'answer'   => 'The League of Extraordinary Packages',
-				],
-				[
-				 	'question' => 'xx',
-				 	'answer'   => 'xx',
-				],
-			]
-		],
-		[
-			'name' => 'Bristol Pubs',
-			'questions' =>  [
-				[
-				 	'question' => 'You\'ll commonly find PHPSW here after a meetup',
-				 	'answer'   => 'What is the Volunteer Tavern?',
-				],
-				[
-				 	'question' => 'This pub is on a boat and is popular with cider drinkers',
-				 	'answer'   => 'What is The Apple?',
-				],
-				[
-				 	'question' => 'This pub claims to be Bristol\'s oldest',
-				 	'answer'   => 'What is The Hatchet?',
-				],
-				[
-				 	'question' => 'This pub has recently been reopened after it was closed last year after its 3rd shooting in 6 months',
-				 	'answer'   => 'What is The Jolly Roger in Easton ',
+				 	'question' => 'This person founded PHPSW on 1 September 2010',
+				 	'answer'   => 'Who is Stuart Herbert?',
 				],
 				[
 				 	'question' => 'xx',

@@ -2,23 +2,23 @@
 	'pointScale' => 200,
 	'categories' => [
 		[
-			'name' => 'Elephpants',
+			'name' => 'TwitersPHPere',
 			'questions' =>  [
 				[
-				 	'question' => 'This elephpant is helping promote diversity',
-				 	'answer'   => 'Who is enfys / What is the rainbow elephpant?',
+				 	'question' => '@asgrim',
+				 	'answer'   => 'Who is James Titcumb?',
 				],
 				[
-				 	'question' => 'The woolly Mammoth was created as a mascot for this PHP Conference',
-				 	'answer'   => 'What is trueNorth PHP?',
+				 	'question' => '@DragonBe',
+				 	'answer'   => 'Who is Michelangelo van Dam? ',
 				],
 				[
-				 	'question' => 'The elephpant was first sketched in 1998 by this person',
-				 	'answer'   => 'Who is Vincent Pontier?',
-				],
+					'question' => '@AmbassadorAwsum',
+					'answer'   => 'Who is Amanda Folson?',
+			    ],
 				[
-				 	'question' => 'This is the name of PHP Architect\'s Orange elephpant',
-				 	'answer'   => 'Who is Archie?',
+				 	'question' => '@ieatkillerbees',
+				 	'answer'   => 'Who is Samantha Quiñones?',
 				],
 				[
 				 	'question' => 'xx',
@@ -27,23 +27,31 @@
 			]
 		],
 		[
-			'name' => 'Community Conferences',
+			'name' => 'Irregular Expressions',
 			'questions' =>  [
 				[
-				 	'question' => 'This UK conference starts out with no schedule',
-				 	'answer'   => 'What is the PHPEM Un Con/',
+				 	'question' => '/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/',
+				 	'answer'   => 'What is an HTML tag?',
 				],
 				[
-				 	'question' => 'If you\'ve made it up for the 9am Sunday morning hangover slot, you must be at what conference',
-				 	'answer'   => 'What is PHPNW?',
+				 	'question' => '/^1?$|^(11+?)\1+$/',
+				 	'answer'   => 'What is a prime number?',
 				],
 				[
-				 	'question' => 'This conference takes place in Action Stations',
-				 	'answer'   => 'What is PHP South Coast?',
+				 	'question' => '(?:[a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*
+ |  "(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]
+      |  \\[\x01-\x09\x0b\x0c\x0e-\x7f])*")
+@ (?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?
+  |  \[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}
+       (?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:
+          (?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]
+          |  \\[\x01-\x09\x0b\x0c\x0e-\x7f])+)
+     \]',
+				 	'answer'   => 'What is an email address?',
 				],
 				[
-				 	'question' => 'This conference had bumper cars at its social',
-				 	'answer'   => 'What is PHP Benelux?',
+				 	'question' => '(?:5[1-5][0-9]{2}|222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}',
+				 	'answer'   => 'What is a mastercard number?',
 				],
 				[
 				 	'question' => 'xx',
@@ -52,24 +60,24 @@
 			]
 		],
 		[
-			'name' => 'Name the namespace',
+			'name' => 'Support the Sponsors',
 			'questions' =>  [
 				[
-				 	'question' => 'This library allows you to specify your dependencies in a JSON file.',
-				 	'answer'   => 'What is Composer?',
+				 	'question' => 'This sponsor sends out over 2 million instant Tour Date, Venue and Ticket Alerts a month',
+				 	'answer'   => 'Who is Ents 24',
 				],
 				[
-				 	'question' => 'This framework comes with an artisan command line tool.',
-				 	'answer'   => 'What is Laravel?',
+				 	'question' => 'This sponsor builds websites and business software from Piccadilly House in Bath',
+				 	'answer'   => 'Who is Deep Blue Sky?',
 				],
 				[
-				 	'question' => 'This static site generator created by Beau Simensen is named after a fish.',
-				 	'answer'   => 'What is Sculpin?',
+				 	'question' => 'This sponsor used to be called Sift Digital',
+				 	'answer'   => 'Who is Edo?',
 				],
 				[
-				 	'question' => 'This PHP framework uses the Gherkin language to describe the behaviour of an application. ',
-				 	'answer'   => 'What is Behat?',
-				],
+					'question' => 'This sponsor used to write its sitebuilding software from The Pithay',
+					'answer'   => 'Who is Basekit?',
+			    ],
 				[
 				 	'question' => 'xx',
 				 	'answer'   => 'xx',
@@ -77,23 +85,23 @@
 			]
 		],
 		[
-			'name' => 'Bristol',
+			'name' => 'It\'s christmas!',
 			'questions' =>  [
 				[
-				 	'question' => 'Bristol is situated on these rivers',
-				 	'answer'   => 'What are the Frome and Avon?',
+				 	'question' => 'This reindeer is famous for his red nose',
+				 	'answer'   => 'Who is Rudolph?',
 				],
 				[
-				 	'question' => 'This scene from Only Fools and Horses was filmed in Broadmead',
-				 	'answer'   => 'The famous batman and robin scene',
+				 	'question' => 'In "A Christmas Carol", this was the first ghost to appear to Scrooge',
+				 	'answer'   => 'What is The Ghost of Christmas Past?',
 				],
 				[
-				 	'question' => 'This person sailed from Bristol to help discover North America',
-				 	'answer'   => 'Who is John Cabbot',
+				 	'question' => 'This soda company was the first to use Santa Claus in an advertisement.',
+				 	'answer'   => 'What is coca-cola',
 				],
 				[
-				 	'question' => 'This drink was invented by at Bristol University',
-				 	'answer'   => 'What is Ribena',
+				 	'question' => 'In the song, "The Twelve Days of Christmas" this is given on the 10th day.',
+				 	'answer'   => 'What is ten lords-a-leaping?',
 				],
 				[
 				 	'question' => 'xx',
